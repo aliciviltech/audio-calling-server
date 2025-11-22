@@ -15,7 +15,7 @@ const io = new Server(httpServer, {
       // "http://localhost:3000",
       // "http://localhost:3001",
       // process.env.CLIENT_URL || "https://v0-audio-calling-app-bt.vercel.app",
-      "https://audio-calling-client.vercel.app/"
+      "https://audio-calling-client.vercel.app"
     ],
     methods: ["GET", "POST"],
   },
